@@ -1,0 +1,27 @@
+1 - Para o processo de cadastro de alunos, é necessário criar um formulário em HTML 
+com campos para os dados pessoais, listagem de cursos, experiência na área e se já 
+participou de outras edições. Ao enviar o formulário, deve-se processar os dados usando 
+PHP e inserir as informações na tabela "alunos" do banco de dados MySQL.
+
+Para isso, é necessário criar a tabela "alunos" no banco de dados com os campos correspondentes
+ ao formulário. Em seguida, deve-se criar uma conexão com o banco de dados usando PHP e executar 
+ a inserção dos dados na tabela.
+
+---------------------------------------------------------------------------------------------------------------------
+
+2- Para realizar a listagem dos alunos cadastrados em um sistema de cadastro de alunos usando PHP e MySQL,
+  o programador pode seguir os seguintes passos:
+
+2.1 Conectar ao banco de dados:
+O primeiro passo é criar uma conexão com o banco de dados MySQL, usando as credenciais de acesso.
+
+2.2 Realizar a consulta:
+Em seguida, é necessário criar uma consulta SQL para selecionar todos os dados dos alunos na tabela correspondente.
+
+2.3 Executar a consulta:
+Com a consulta SQL pronta, ela deve ser executada usando a função mysqli_query() do PHP.
+
+2.4 Exibir os resultados:
+O resultado da consulta pode ser exibido em uma tabela HTML, criada com a ajuda de um loop de repetição em PHP.
+
+---------------------------------------------------------------------------------------------------------------------
